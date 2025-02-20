@@ -18,7 +18,7 @@ val provider = GoogleFont.Provider(
 
 val bodyFontFamily = FontFamily(
     Font(
-        googleFont = GoogleFont("Roboto"),
+        googleFont = GoogleFont("Roboto Flex"),
         fontProvider = provider,
     )
 )

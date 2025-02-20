@@ -5,4 +5,5 @@ plugins {
     alias(libs.plugins.kotlin.compose) apply false
     alias(libs.plugins.dagger.hilt) apply false
     alias(libs.plugins.kotlin.serialization) apply false
+    id("com.google.devtools.ksp") version "2.1.10-1.0.30" apply false
 }
