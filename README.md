@@ -10,15 +10,17 @@
 
 5) Flow
 
+
 # User interface
+
 <p style="display: flex; flex-wrap: wrap; justify-content: center;">
-<img alt="Снимок экрана 2025-02-26 213211.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213211.png"/>
-<img alt="Снимок экрана 2025-02-26 213227.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213227.png"/>
-<img alt="Снимок экрана 2025-02-26 213302.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213302.png"/>
-<img alt="Снимок экрана 2025-02-26 213318.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213318.png"/>
-<img alt="Снимок экрана 2025-02-26 213339.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213339.png"/>
-<img alt="Снимок экрана 2025-02-26 213352.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213352.png"/>
-<img alt="Снимок экрана 2025-02-26 213401.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213401.png"/>
-<img alt="Снимок экрана 2025-02-26 213412.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213412.png"/>
-<img alt="Снимок экрана 2025-02-26 213504.png" height="300" src="..%2F..%2FPictures%2FScreenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-26%20213504.png"/>
+<img alt="Снимок экрана 2025-02-26 213211.png" height="300" src="https://github.com/user-attachments/assets/57a84f2c-1c70-4b9b-aecc-4997284ece06"/>
+<img alt="Снимок экрана 2025-02-26 213227.png" height="300" src="https://github.com/user-attachments/assets/2f71f038-063a-4d8d-8944-1f8ed89ed758"/>
+<img alt="Снимок экрана 2025-02-26 213227.png" height="300" src="https://github.com/user-attachments/assets/c2f871cd-9da4-4e72-a6bd-8ac2e11558d9"/>
+<img alt="Снимок экрана 2025-02-26 213302.png" height="300" src="https://github.com/user-attachments/assets/0e755970-1bd3-48df-84dd-dfe705d605a0"/>
+<img alt="Снимок экрана 2025-02-26 213318.png" height="300" src="https://github.com/user-attachments/assets/4e891dad-477a-4564-85fa-d0eeccce1680"/>
+<img alt="Снимок экрана 2025-02-26 213339.png" height="300" src="https://github.com/user-attachments/assets/a0440a1f-8346-4524-a62f-896e05edc070"/>
+<img alt="Снимок экрана 2025-02-26 213352.png" height="300" src="https://github.com/user-attachments/assets/6a2774c2-713f-4931-800d-72870850e786"/>
+<img alt="Снимок экрана 2025-02-26 213401.png" height="300" src="https://github.com/user-attachments/assets/a21f1b11-3f3e-4f3e-94a8-f2576bfbf125"/>
+<img alt="Снимок экрана 2025-02-26 213412.png" height="300" src="https://github.com/user-attachments/assets/cbf05d16-8ee9-4bbe-97bf-86b89622ffa5"/>
 </p>
