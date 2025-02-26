@@ -40,13 +40,20 @@ class ViewModel @Inject constructor(
         observeCities()
     }
 
-    private fun getCurrentWhether(location: String, language: String) {
-        viewModelScope.launch {
-            getWhetherUseCase(location, language).collect{
-                when(it){
-                    is RequestStates.Error -> _state.value = CurrentWhetherState(error = it.error.toString(), isLoading = false)
-                    is RequestStates.Loading -> _state.value = CurrentWhetherState(isLoading = true)
-                    is RequestStates.Success -> _state.value = CurrentWhetherState(data = it.data, isLoading = false)
+    private fun getCurrentWhether(location: String?, language: String) {
+        location?.let {
+            viewModelScope.launch {
+                getWhetherUseCase(location, language).collect {
+                    when (it) {
+                        is RequestStates.Error -> _state.value =
+                            CurrentWhetherState(error = it.error.toString(), isLoading = false)
+
+                        is RequestStates.Loading -> _state.value =
+                            CurrentWhetherState(isLoading = true)
+
+                        is RequestStates.Success -> _state.value =
+                            CurrentWhetherState(data = it.data, isLoading = false)
+                    }
                 }
             }
         }
@@ -69,8 +76,10 @@ class ViewModel @Inject constructor(
     }
     private fun observeCurrentCity() = viewModelScope.launch {
         dao.getSelectedCity().collect{
-            _currentCity.value = it
-            getCurrentWhether(it, "ru")
+            it?.let{
+                _currentCity.value = it
+                getCurrentWhether(it, "ru")
+            }
         }
     }
     fun setShowMakeLocationCurrentDialog(show: Boolean) {

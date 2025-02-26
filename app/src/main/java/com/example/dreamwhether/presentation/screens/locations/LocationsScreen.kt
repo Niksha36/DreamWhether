@@ -1,5 +1,6 @@
 package com.example.dreamwhether.presentation.screens.locations
 
+import android.util.Log
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -29,7 +30,7 @@ fun LocationsScreen() {
     val viewModel = hiltViewModel<ViewModel>()
     viewModel.getWhetherForCities()
     val citiesForecasts = viewModel.citiesForecast.value
-    val currentCity = viewModel.currentCity.value
+    val currentCity by viewModel.currentCity
     var showAllLocationDialog by remember { mutableStateOf(false) }
     val locationCurrentDialog = viewModel.showMakeLocationCurrentDialog.value
     var selectedCity by remember { mutableStateOf("") }
@@ -79,6 +80,7 @@ fun LocationsScreen() {
             onDismiss = { viewModel.setShowMakeLocationCurrentDialog(false) },
             onConfirm = {
                 viewModel.makeCityCurrent(selectedCity)
+                Log.e("SelCity", selectedCity)
                 viewModel.setShowMakeLocationCurrentDialog(false)
             }
         )

@@ -32,7 +32,8 @@ fun AddCityDialog(onDismiss: () -> Unit, onAdd: (String) -> Unit) {
         confirmButton = {
             Button(
                 onClick = {
-                    onAdd(cityName)
+                    val city = cityName.trimEnd()
+                    onAdd(city)
                     onDismiss()
                 }
             ) {
